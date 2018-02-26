@@ -1,6 +1,8 @@
-FROM hyperledger/composer-cli:0.17.7-20180226032140
+FROM hyperledger/composer-cli:0.16.4-20180214115430
 
 USER root
+
+RUN apk add bash
 
 # Add global composer modules to the path.
 ENV PATH /home/composer/.npm-global/bin:$PATH

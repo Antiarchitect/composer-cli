@@ -1,4 +1,4 @@
-FROM hyperledger/composer-cli:0.16.5
+FROM hyperledger/composer-cli:0.16.6
 
 USER root
 
